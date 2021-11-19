@@ -1,0 +1,54 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.leftbar {
+    min-width: 40px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #484f57;
+    overflow-y: scroll;
+}
+
+.leftbar svg {
+    font-size: 50px;
+    color:aliceblue;
+}
+
+.active-icon-btn {
+    background-color: aliceblue !important;
+    color: #484f57 !important;
+}
+
+.active-icon-btn svg {
+    color: #484f57 !important;
+}
+
+.leftbar > * {
+    margin: 10px 0 !important;
+}
+
+table {
+    font-size: 20px;
+}
+
+td, th {
+    padding: 8px 20px !important;
+}
+
+input {
+    font-size: 25px !important;
+}
+
+@media screen and (max-width: 860px) {
+    .leftbar svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .leftbar {
+        margin-top: 40px;
+    }
+}
